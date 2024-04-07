@@ -157,6 +157,7 @@ a {
 
 .icon__primary {
   fill: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .icon-container {
@@ -177,6 +178,7 @@ a {
   width: 30px;
   height: 30px;
 }
+
 /* buttons */
 
 .btn {
@@ -500,4 +502,36 @@ a {
     justify-self: start;
     margin: 0 2rem;
   }
+}
+
+/* section collapse */
+.collabsable__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collabsable__heading {
+  margin-top: 0;
+  font-style: 3rem;
+}
+
+.collabsable__chevron {
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.collabsable__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collabsable--expanded .collabsable__chevron {
+  transform: rotate(0);
+}
+
+.collabsable--expanded .collabsable__content {
+  max-height: 100vh;
+  opacity: 1;
 }
