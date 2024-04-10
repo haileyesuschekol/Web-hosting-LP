@@ -193,7 +193,7 @@ a {
 
 .btn {
   font-size: 1.8rem;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   border-radius: 40px;
   font-weight: 600;
   text-transform: uppercase;
@@ -283,6 +283,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -510,6 +511,7 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  margin: 0 4rem;
 }
 .callout--primary {
   background: var(--color-primary);
@@ -533,6 +535,7 @@ a {
 @media screen and (min-width: 768px) {
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
+    margin: 0 10rem;
   }
   .callout__content {
     text-align: left;
@@ -604,7 +607,7 @@ a {
 
 .block--skewed-right {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
 }
 .block--skewed-left {
   padding-bottom: calc(var(--padding-vertical) + 4rem);
@@ -712,9 +715,10 @@ a {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
+  color: var(--color-headings);
   font-weight: 600;
   justify-items: center;
   max-width: 700px;
