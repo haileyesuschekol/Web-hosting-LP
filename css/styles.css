@@ -16,7 +16,7 @@
 }
 ::selection {
   background: var(--color-primary);
-  columns: #fff;
+  color: #fff;
 }
 
 /* Typography */
@@ -378,7 +378,7 @@ a {
   transform: scale(1.15);
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
   }
@@ -389,7 +389,7 @@ a {
     font-size: 1.6rem;
   }
   .plan__description {
-    font-style: 1.7rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -520,7 +520,7 @@ a {
 .callout__heading {
   color: #fff;
   margin-top: 0;
-  font-size: 3rems;
+  font-size: 3rem;
 }
 
 .callout .btn {
@@ -554,7 +554,7 @@ a {
 
 .collabsable__heading {
   margin-top: 0;
-  font-style: 3rem;
+  font-size: 3rem;
 }
 
 .collabsable__chevron {
@@ -804,7 +804,7 @@ a {
 
 .footer__section {
   padding: 2rem;
-  padding-bottom: 1px solid #393939;
+  border: 1px solid #393939;
 }
 
 .footer .list {

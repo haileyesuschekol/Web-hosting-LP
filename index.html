@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moshify - Go Online for $9</title>
-   <meta name="description" content="Deploy your wesite on just $9">
-    
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="description" content="Deploy your wesite on just $9" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
@@ -54,7 +54,7 @@
             type="image/png"
             srcset="images/banner.png 1x, images/banner@2x.png 2x"
           />
-          <img src="images/banner.png" class="hero__image" alt="" />
+          <img src="images/banner.png" class="hero__image" alt="pic" />
         </picture>
       </div>
     </section>
@@ -193,7 +193,7 @@
             srcset="/images/easy.jpg 1x, image/easy@2x.jpg 2x"
           />
 
-          <img src="images/easy@2x.jpg" class="feature__image" alt="" />
+          <img src="images/easy@2x.jpg" class="feature__image" alt="pic" />
         </picture>
       </article>
 
@@ -221,7 +221,7 @@
             srcset="/images/fast.jpg 1x, image/fast@2x.jpg 2x"
           />
 
-          <img src="images/fast@2x.jpg" class="feature__image" alt="" />
+          <img src="images/fast@2x.jpg" class="feature__image" alt="pic" />
         </picture>
       </article>
 
@@ -249,7 +249,7 @@
             srcset="/images/wordpress.jpg 1x, image/wordpress@2x.jpg 2x"
           />
 
-          <img src="images/wordpress@2x.jpg" class="feature__image" alt="" />
+          <img src="images/wordpress@2x.jpg" class="feature__image" alt="pic" />
         </picture>
       </article>
     </section>
@@ -270,13 +270,17 @@
             type="image/png"
             srcset="/images/ipad.png 1x, images/ipad@2x.png 2x"
           />
-          <img src="images/ipad@2x.png" alt="" />
+          <img src="images/ipad@2x.png" alt="pic" />
         </picture>
         <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon__primary" src="images/snap.svg" />
+                <img
+                  class="icon icon__primary"
+                  src="images/snap.svg"
+                  alt="icon"
+                />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
@@ -291,7 +295,11 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon__primary" src="images/snap.svg" />
+                <img
+                  class="icon icon__primary"
+                  src="images/snap.svg"
+                  alt="icon"
+                />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
@@ -306,7 +314,11 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon__primary" src="images/snap.svg" />
+                <img
+                  class="icon icon__primary"
+                  src="images/snap.svg"
+                  alt="icon"
+                />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Staging, Git & WP-CLI</h3>
@@ -335,17 +347,13 @@
         <div class="card testimonial">
           <div class="grid grid--1x2">
             <div class="testimonial__image">
-              <img
-                src="images/testimonial.jpg"
-                alt="Smily customer"
-                
-              />
+              <img src="images/testimonial.jpg" alt="Smily customer" />
               <span class="icon-container icon-container-accent">
-                <img class="icon" src="images/quotes.svg" />
+                <img class="icon" src="images/quotes.svg" alt="icon" />
               </span>
             </div>
 
-            <blockquote class="quote"">
+            <blockquote class="quote">
               <p class="quote__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Aliquam repudiandae nemo deserunt asperiores cum distinctio
@@ -388,20 +396,10 @@
 
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
-        <!-- <section class="collabsable collabsable--expanded footer__section">
-          <header class="collabsable__header">
-            <h2 class="collabsable__heading footer__heading>">Item 1</h2>
-            <img class="icon collabsable__chevron" src="images/chevron.svg" />
-          </header>
-          <div class="collabsable__content">
-            <ul cla href="#">Migrations</a></li>
-            </ul>
-          </div>
-        </section> -->
         <section class="collabsable footer__section">
-          <header class="collabsable__header">
+          <div class="collabsable__header">
             <h2 class="collabsable__heading footer__heading">PRODUCTS</h2>
-          </header>
+          </div>
           <div class="collabsable__content">
             <ul class="list">
               <li><a href="#">Website Hosting</a></li>
@@ -411,9 +409,9 @@
           </div>
         </section>
         <section class="collabsable footer__section">
-          <header class="collabsable__header">
+          <div class="collabsable__header">
             <h2 class="collabsable__heading footer__heading">COMPANY</h2>
-          </header>
+          </div>
           <div class="collabsable__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -424,9 +422,9 @@
         </section>
 
         <section class="collabsable footer__section">
-          <header class="collabsable__header">
+          <div class="collabsable__header">
             <h2 class="collabsable__heading footer__heading">SUPPORT</h2>
-          </header>
+          </div>
           <div class="collabsable__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -437,23 +435,23 @@
         </section>
 
         <section class="collabsable footer__section">
-          <header class="collabsable__header">
+          <div class="collabsable__header">
             <h2 class="collabsable__heading footer__heading">DOMAINS</h2>
-          </header>
-          <ul class="list">
-            <li><a href="#">Website Hosting</a></li>
-            <li><a href="#">Free Automated Wordpress</a></li>
-          </ul>
-          <div class="collabsable__content">
             <ul class="list">
-              <li><a href="#">Domain Checker</a></li>
-              <li><a href="#">Domain Transfer</a></li>
-              <li><a href="#">Free Domain</a></li>
+              <li><a href="#">Website Hosting</a></li>
+              <li><a href="#">Free Automated Wordpress</a></li>
             </ul>
+            <div class="collabsable__content">
+              <ul class="list">
+                <li><a href="#">Domain Checker</a></li>
+                <li><a href="#">Domain Transfer</a></li>
+                <li><a href="#">Free Domain</a></li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="footer__brand">
-          <img src="images/logo.svg" alt="" />
+          <img src="images/logo.svg" alt="logo" />
           <p class="footer__copyright">Copyright 2022</p>
         </section>
       </div>
