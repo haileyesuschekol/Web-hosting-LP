@@ -1,6 +1,6 @@
 # WebHosting landing page
 
-[Visit Site Here](https://moshifiedwebhost.netlify.app/)
+[Visit Site Here](https://ethost.netlify.app/)
 
 ## Features
 
